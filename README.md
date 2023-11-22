@@ -15,10 +15,12 @@ We are students from VNU-HCMUS, our project is designed to showcase proficiency 
 
 ## project structure
 
+```bash
 CSC14119_IntroDS_final_project/
 |-- data/
-|  
+|
 |-- src/
 | |-- notebooks/
 |
 |-- README.md
+```
