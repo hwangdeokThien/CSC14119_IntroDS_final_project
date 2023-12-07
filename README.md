@@ -18,9 +18,22 @@ We are students from VNU-HCMUS, our project is designed to showcase proficiency 
 ```bash
 CSC14119_IntroDS_final_project/
 |-- data/
-|
+|    |-- raw/
+|    |    |-- raw_data_fbref.csv
+|    |    |-- raw_data_trans.csv
+|    |
+|    |-- processed/
+|         |-- processed_fb_data.csv
+|         |-- scaled_encoded_data.csv
+|    
 |-- src/
-| |-- notebooks/
+|    |-- notebooks/
+|         |-- 0.0-introduction.ipynb 
+|         |-- 1.0-data-collecting.ipynb 
+|         |-- 2.0-preprocessing.ipynb 
+|         |-- 3.0-eda.ipynb 
+|         |-- 4.1-feature-encoding-scaling.ipynb 
+|         |-- 4.2-data-modelling.ipynb 
 |
 |-- README.md
 ```
