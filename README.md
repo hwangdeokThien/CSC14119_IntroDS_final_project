@@ -23,8 +23,14 @@ CSC14119_IntroDS_final_project/
 |    |    |-- raw_data_trans.csv
 |    |
 |    |-- processed/
-|         |-- processed_fb_data.csv
-|         |-- scaled_encoded_data.csv
+|    |    |-- processed_fb_data.csv
+|    |    |-- scaled_encoded_data.csv
+|    |    |-- encoded_data.csv
+|    |
+|    |-- data_npz_format
+|         |-- data_test.npz
+|         |-- data_train.npz
+|         |-- data_validation.npz
 |    
 |-- src/
 |    |-- notebooks/
@@ -32,8 +38,9 @@ CSC14119_IntroDS_final_project/
 |         |-- 1.0-data-collecting.ipynb 
 |         |-- 2.0-preprocessing.ipynb 
 |         |-- 3.0-eda.ipynb 
-|         |-- 4.1-feature-encoding-scaling.ipynb 
-|         |-- 4.2-data-modelling.ipynb 
+|         |-- 4.0-feature-encoding-scaling.ipynb 
+|         |-- 4.1-data-modelling-machine-learning.ipynb
+|         |-- 4.2-data-modelling-deep-learning.ipynb
 |
 |-- README.md
 ```
